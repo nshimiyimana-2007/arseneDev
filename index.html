@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nshimiyimana Arsene — Full-Stack Developer</title>
+<meta name="description" content="Nshimiyimana Arsene is a full-stack developer in Rwanda building web applications, systems, and e-commerce platforms.">
+<meta name="theme-color" content="#0F1433">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body class="font-sans text-mist antialiased">
+
+<!-- NAV -->
+<header class="sticky top-0 z-50 border-b border-line/60 bg-ink/85 backdrop-blur" style="padding-top:env(safe-area-inset-top,0px)">
+  <nav class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
+    <a href="#top" class="font-display text-xl font-extrabold text-white">ARSENE<span class="text-sun">.</span></a>
+    <ul class="hidden gap-8 text-sm font-medium md:flex">
+      <li><a class="transition hover:text-sun" href="#about">About</a></li>
+      <li><a class="transition hover:text-sun" href="#work">Projects</a></li>
+      <li><a class="transition hover:text-sun" href="#contact">Contact</a></li>
+    </ul>
+    <a href="https://wa.me/250791721333" target="_blank" rel="noopener noreferrer" class="hidden rounded-full bg-sun px-5 py-2 text-sm font-semibold text-ink transition hover:bg-white md:block">Let's talk</a>
+    <button id="menuBtn" class="min-h-[44px] rounded-lg border border-line px-3 py-2 text-sm text-white md:hidden" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open navigation menu">Menu</button>
+  </nav>
+  <div id="mobileMenu" class="hidden border-t border-line/60 px-5 py-4 md:hidden">
+    <a class="flex min-h-[44px] items-center py-2 text-white" href="#about">About</a>
+    <a class="flex min-h-[44px] items-center py-2 text-white" href="#work">Projects</a>
+    <a class="flex min-h-[44px] items-center py-2 text-white" href="#contact">Contact</a>
+    <a class="mt-3 inline-flex min-h-[44px] items-center rounded-full bg-sun px-5 py-2 text-sm font-semibold text-ink" href="https://wa.me/250791721333" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+  </div>
+</header>
+
+<main id="top">
+<!-- HERO -->
+<section class="relative overflow-hidden">
+  <div class="hero-grid pointer-events-none absolute inset-0"></div>
+  <div class="pointer-events-none absolute -right-40 -top-40 h-[34rem] w-[34rem] rounded-full bg-sun/10 blur-3xl"></div>
+  <div class="pointer-events-none absolute -left-40 top-60 h-[28rem] w-[28rem] rounded-full bg-leaf/10 blur-3xl"></div>
+  <div class="relative mx-auto grid max-w-6xl items-center gap-12 px-5 pb-24 pt-16 md:grid-cols-[1.4fr_1fr] md:pt-28">
+    <div class="reveal">
+      <p class="rise mb-5 inline-flex items-center gap-2 rounded-full border border-line bg-panel px-4 py-1.5 text-sm">
+        <span class="h-2 w-2 rounded-full bg-leaf"></span> Open to work · Based in Rwanda
+      </p>
+      <h1 class="rise rise-2 font-display text-5xl font-extrabold leading-[1.02] text-white sm:text-6xl lg:text-7xl">
+        I'm Arsene.<br><span class="text-sun">I build for the web.</span>
+      </h1>
+      <p class="rise rise-3 mt-6 max-w-xl text-lg leading-relaxed">
+        Full-stack developer building web applications, business systems, and e-commerce experiences—from the first idea to a polished, working product.
+      </p>
+      <p class="mt-3 max-w-xl text-sm leading-relaxed text-mist/75">Nkora ama web application, systems na e-commerce websites bifasha abantu n’ibigo gukemura ibibazo nyakuri.</p>
+      <div class="rise rise-3 mt-9 flex flex-wrap gap-4">
+        <a href="#work" class="rounded-full bg-sun px-7 py-3.5 font-semibold text-ink transition hover:bg-white">Explore my work <span aria-hidden="true">↗</span></a>
+        <a href="https://wa.me/250791721333" target="_blank" rel="noopener noreferrer" class="rounded-full border border-line px-7 py-3.5 font-semibold text-white transition hover:border-sun hover:text-sun">Chat on WhatsApp</a>
+      </div>
+    </div>
+    <div class="rise rise-3 mx-auto w-full max-w-sm">
+      <div class="relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-line bg-panel shadow-2xl shadow-black/30">
+        <img src="./image.jpeg" alt="Nshimiyimana Arsene, full-stack developer in Rwanda" class="absolute inset-0 h-full w-full object-cover object-center">
+        <div class="absolute inset-0 bg-gradient-to-t from-ink/90 via-ink/10 to-ink/10"></div>
+        <div class="absolute left-5 top-5 rounded-full border border-white/20 bg-ink/55 px-4 py-2 text-xs font-medium uppercase tracking-[.2em] text-white backdrop-blur">Developer · Rwanda</div>
+        <div class="absolute inset-x-0 bottom-0 p-7">
+          <p class="font-display text-3xl font-extrabold text-white">Arsene<span class="text-sun">.</span></p>
+          <p class="mt-2 text-sm text-white/85">Web apps · Systems · E-commerce</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="border-t border-line/60">
+  <div class="mx-auto grid max-w-6xl gap-12 px-5 py-24 md:grid-cols-2">
+    <div class="reveal">
+      <p class="text-sm font-semibold uppercase tracking-[.2em] text-sun">A little about me</p>
+      <h2 class="mt-3 font-display text-4xl font-bold text-white">Building useful things for the web.</h2>
+      <p class="mt-6 leading-relaxed">
+        I’m a full-stack developer who builds complete products, from the interface people use to the server and database behind it. I work on web applications, e-commerce websites, and practical management systems.
+      </p>
+      <p class="mt-4 leading-relaxed">
+        I care about clear design, reliable functionality, and websites that work beautifully on phones as well as desktops. I enjoy turning complex needs into straightforward digital experiences.
+      </p>
+      <dl class="mt-8 grid grid-cols-3 gap-4 text-center">
+        <div class="rounded-2xl border border-line bg-panel p-4"><dt class="text-sm">Focus</dt><dd class="mt-1 font-display text-lg font-bold text-white">Full-stack</dd></div>
+        <div class="rounded-2xl border border-line bg-panel p-4"><dt class="text-sm">Based in</dt><dd class="mt-1 font-display text-lg font-bold text-white">Rwanda</dd></div>
+        <div class="rounded-2xl border border-line bg-panel p-4"><dt class="text-sm">Available</dt><dd class="mt-1 font-display text-lg font-bold text-white">For projects</dd></div>
+      </dl>
+    </div>
+    <div class="reveal">
+      <h3 class="font-display text-2xl font-bold text-white">Skills</h3>
+      <div class="mt-6 space-y-5" id="skills"></div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work" class="border-t border-line/60 bg-panel/40">
+  <div class="mx-auto max-w-6xl px-5 py-24">
+    <div class="reveal">
+      <p class="text-sm font-semibold uppercase tracking-[.2em] text-sun">From concept to launch</p>
+      <h2 class="mt-3 font-display text-4xl font-bold text-white">Selected projects</h2>
+      <p class="mt-3 max-w-xl">A selection of web products and systems I’ve worked on. Explore the live projects and public repositories.</p>
+    </div>
+    <div class="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3" id="projects"></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="border-t border-line/60">
+  <div class="mx-auto grid max-w-6xl gap-12 px-5 py-24 md:grid-cols-2">
+    <div class="reveal">
+      <p class="text-sm font-semibold uppercase tracking-[.2em] text-sun">Have a project in mind?</p>
+      <h2 class="mt-3 font-display text-4xl font-bold text-white">Let’s make it happen.</h2>
+      <p class="mt-5 max-w-md leading-relaxed">Need a website, an e-commerce store, or a custom business system? Tell me what you’re planning and let’s build it together.</p>
+      <p class="mt-6 text-white">Based in Rwanda · English &amp; Kinyarwanda</p>
+      <div class="mt-7 flex flex-wrap gap-3">
+        <a href="tel:+250791721333" class="social-link inline-flex items-center gap-2 rounded-full border border-line px-5 py-2.5 text-sm font-medium text-white"><span aria-hidden="true">☎</span> Call: 079 172 1333</a>
+        <a href="https://wa.me/250791721333" target="_blank" rel="noopener noreferrer" class="social-link inline-flex items-center gap-2 rounded-full border border-line px-5 py-2.5 text-sm font-medium text-white"><span aria-hidden="true">✆</span> WhatsApp me</a>
+      </div>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href="https://www.instagram.com/arsene5369/" target="_blank" rel="noopener noreferrer" class="social-link rounded-full border border-line px-5 py-2.5 text-sm font-medium text-white">Instagram</a>
+        <a href="https://web.facebook.com/arsene.nshimiyimana.arsene" target="_blank" rel="noopener noreferrer" class="social-link rounded-full border border-line px-5 py-2.5 text-sm font-medium text-white">Facebook</a>
+        <a href="https://github.com/nshimiyimana-2007" target="_blank" rel="noopener noreferrer" class="social-link rounded-full border border-line px-5 py-2.5 text-sm font-medium text-white">GitHub</a>
+        <a href="https://x.com/ArseneNSHI74702" target="_blank" rel="noopener noreferrer" class="social-link rounded-full border border-line px-5 py-2.5 text-sm font-medium text-white">X</a>
+      </div>
+    </div>
+    <form id="contactForm" class="reveal space-y-5 rounded-3xl border border-line bg-panel p-6 sm:p-8">
+      <div>
+        <label for="name" class="mb-2 block text-sm font-medium text-white">Your name</label>
+        <input id="name" name="name" autocomplete="name" required class="w-full rounded-xl border border-line bg-ink px-4 py-3 text-white placeholder-mist/50" placeholder="Jane Doe">
+      </div>
+      <div>
+        <label for="email" class="mb-2 block text-sm font-medium text-white">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required class="w-full rounded-xl border border-line bg-ink px-4 py-3 text-white placeholder-mist/50" placeholder="jane@example.com">
+      </div>
+      <div>
+        <label for="msg" class="mb-2 block text-sm font-medium text-white">Message</label>
+        <textarea id="msg" name="message" rows="4" required class="w-full rounded-xl border border-line bg-ink px-4 py-3 text-white placeholder-mist/50" placeholder="What do you want to build?"></textarea>
+      </div>
+      <button class="w-full rounded-full bg-sun py-3.5 font-semibold text-ink transition hover:bg-white">Continue in WhatsApp <span aria-hidden="true">↗</span></button>
+      <p id="formMsg" class="hidden text-center text-sm text-leaf" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="border-t border-line/60 px-5 py-8 text-center text-sm" style="padding-bottom:calc(2rem + env(safe-area-inset-bottom,0px))">
+  © <span id="yr"></span> Nshimiyimana Arsene · Built with care in Rwanda.
+</footer>
+
+<script>
+  // ===== EDIT YOUR CONTENT HERE =====
+  const skillGroups = [
+    ['Frontend', ['React.js','JavaScript','TypeScript','HTML & CSS','Tailwind CSS']],
+    ['Backend', ['Node.js','PHP']],
+    ['Database', ['MongoDB']],
+    ['Tools', ['Git & GitHub','Render hosting']]
+  ];
+  const projects = [
+    { title:'DRICO Rwanda', desc:'Drivers Rwanda Connect: book professional drivers, mobile car wash, car rental and corporate mobility, anytime and anywhere.', tags:['JavaScript','Node.js','MongoDB'], from:'#0E5A28', to:'#3DBE7A', href:'https://drico-rwanda-2.onrender.com/', label:'Explore DRICO' },
+    { title:'Amategeko y\'Umuhanda', desc:'A Kinyarwanda learning platform that helps people study road rules and prepare for the driving theory exam.', tags:['TypeScript','React','Kinyarwanda'], from:'#F6C945', to:'#FF8A5B', href:'https://amategeko-y-umuhanda.vercel.app/', label:'Visit live site' },
+    { title:'ABC Shop', desc:'An e-commerce website serving customers in Gicumbi, Rwanda, where shoppers can explore products and place orders.', tags:['JavaScript','Node.js','MongoDB'], from:'#5B6CFF', to:'#B77CFF', href:'https://abc-ecommerce-opal.vercel.app/', label:'Visit ABC Shop' },
+    { title:'E-Portfolio System', desc:'E-Portfolio management for students, teachers and admins.', tags:['PHP','MySQL','Roles'], from:'#2A8FD6', to:'#3DBE7A', label:'Private repository' },
+    { title:'Academic Tracking MIS', desc:'A management information system for tracking academic records and progress.', tags:['PHP','Dashboard'], from:'#FF8A5B', to:'#F6C945', href:'https://github.com/nshimiyimana-2007/Academic-Tracking-Management-Information-System', label:'View on GitHub' },
+    { title:'Umuhuza Cooperative', desc:'A web system for managing a cooperative and connecting its members.', tags:['PHP','Web app'], from:'#3DBE7A', to:'#F6C945', href:'https://github.com/nshimiyimana-2007/umuhuza-cooperative', label:'View on GitHub' },
+  ];
+
+  document.getElementById('skills').innerHTML = skillGroups.map(([g,items]) => `
+    <div>
+      <h4 class="mb-3 text-sm font-medium text-white">${g}</h4>
+      <ul class="flex flex-wrap gap-2">${items.map(i => `<li class="rounded-full border border-line bg-panel px-4 py-1.5 text-sm text-white">${i}</li>`).join('')}</ul>
+    </div>`).join('');
+
+  document.getElementById('projects').innerHTML = projects.map((p,index) => `
+    <article class="project-card reveal group flex flex-col overflow-hidden rounded-3xl border border-line bg-panel" style="--reveal-delay:${index * 80}ms">
+      <div class="aspect-[16/10] overflow-hidden" style="background:linear-gradient(135deg,${p.from},${p.to})">
+        <div class="flex h-full items-center justify-center px-4 text-center font-display text-3xl font-extrabold text-ink/70 transition group-hover:scale-105">${p.title}</div>
+      </div>
+      <div class="flex flex-1 flex-col p-6">
+        <h3 class="font-display text-2xl font-bold text-white">${p.title}</h3>
+        <p class="mt-2 flex-1 leading-relaxed">${p.desc}</p>
+        <ul class="mt-4 flex flex-wrap gap-2">${p.tags.map(t => `<li class="rounded-full border border-line px-3 py-1 text-xs">${t}</li>`).join('')}</ul>
+        ${p.href ? `<a href="${p.href}" target="_blank" rel="noopener noreferrer" aria-label="${p.label} — ${p.title} (opens in a new tab)" class="mt-5 inline-flex min-h-[44px] w-fit items-center gap-2 rounded-full border border-sun/50 px-5 py-2 text-sm font-semibold text-sun transition hover:bg-sun hover:text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sun">${p.label} <span aria-hidden="true">↗</span></a>` : `<span class="mt-5 inline-block text-sm text-mist/70">${p.label}</span>`}
+      </div>
+    </article>`).join('');
+
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  const revealItems = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.documentElement.classList.add('has-scroll-reveal');
+    const revealObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold:0.12, rootMargin:'0px 0px -32px 0px' });
+    revealItems.forEach(item => revealObserver.observe(item));
+  }
+
+  const btn = document.getElementById('menuBtn'), menu = document.getElementById('mobileMenu');
+  btn.addEventListener('click', () => {
+    const open = menu.classList.toggle('hidden') === false;
+    btn.setAttribute('aria-expanded', open);
+    btn.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+  });
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { menu.classList.add('hidden'); btn.setAttribute('aria-expanded', false); }));
+
+  document.getElementById('contactForm').addEventListener('submit', e => {
+    e.preventDefault();
+    const form = e.currentTarget;
+    const name = form.elements.name.value.trim();
+    const email = form.elements.email.value.trim();
+    const message = form.elements.message.value.trim();
+    const text = `Hello Arsene, my name is ${name} (${email}). ${message}`;
+    const whatsappUrl = `https://wa.me/250791721333?text=${encodeURIComponent(text)}`;
+    window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+    const status = document.getElementById('formMsg');
+    status.textContent = 'Your message is ready in WhatsApp. Review it there and tap Send.';
+    status.classList.remove('hidden');
+  });
+</script>
+</body>
+</html>
